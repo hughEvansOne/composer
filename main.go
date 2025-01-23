@@ -35,7 +35,7 @@ func main() {
 
 	ctx := context.Background()
 
-	project := "kodespaces"
+	project := "skilful-scarab-392613"
 
 	llm, err := vertex.New(ctx,
 		googleai.WithCloudProject(project),
